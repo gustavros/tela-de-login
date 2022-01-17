@@ -60,7 +60,7 @@ body * {
     justify-content: center;
     align-items: center;
 
-    padding: 30px 35px;
+    padding: 20px 20px;
 
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
@@ -71,6 +71,18 @@ body * {
     font-weight: 800;
 
     margin: 0;
+}
+
+.card-login > p {
+    color: #f0ffff94;
+
+    text-align: center;
+}
+
+.card-login > p a {
+    text-decoration: none;
+
+    color: #00ff88;
 }
 
 
@@ -167,15 +179,17 @@ footer > a {
     }
 
     .left-login-image {
-        width: 50vw;
+        width: 30vw;
     }
 
     .right-login {
         width: 100%;
         height: auto;
+        
     }
 
     .card-login {
-        width: 90%;
+        width: 80%;
+        height: auto;
     }
 }
